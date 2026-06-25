@@ -150,7 +150,7 @@ div p, p {
 .contact-cards {
     background-color: var(--Gray);
     color: var(--White);
-    margin: 1em 2.75em;
+    margin: 1.5em 2.75em;
     padding: 1em;
     border-radius: 20px;
     display: flex;
