@@ -11,7 +11,7 @@ body {
     margin: 0;
     background-color: var(--Black);
     position: relative;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'jetbrains mono', serif;
 }
 
 #Email-Logo {
@@ -34,7 +34,7 @@ div p, p {
 }
 
 .initials-logo {
-    font-family: 'Kapakana', serif;
+    font-family: 'kapakana', serif;
     font-size: clamp(30px ,3vw ,60px);
 }
 
@@ -202,6 +202,7 @@ div p, p {
     padding: 0;
     margin: 0;
     white-space: nowrap;
+    opacity: 0;
 }
 
 .language-selector span.lang-active {
@@ -278,6 +279,10 @@ div p.whoami {
 @font-face {
   font-family: 'kapakana';
   src: url('../Kapakana-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: jetbrains mono;
+    src: url(../JetBrainsMono-VariableFont_wght.ttf);
 }
 
 @media (max-width: 1000px) {
